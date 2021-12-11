@@ -1,0 +1,70 @@
+{
+  "showLegend": true,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "EnableOrDisablePopup": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "TransportationWebMap_9659": {
+      "display": true
+    },
+    "TransportationWebMap_9659_0": {
+      "display": true
+    },
+    "TransportationWebMap_9659_1": {
+      "display": true
+    },
+    "TransportationWebMap_9659_2": {
+      "display": true
+    },
+    "TransportationWebMap_9659_3": {
+      "display": true
+    },
+    "TransportationWebMap_9659_4": {
+      "display": true
+    },
+    "TransportationWebMap_9659_5": {
+      "display": true
+    },
+    "TransportationWebMap_9659_6": {
+      "display": true
+    },
+    "TransportationWebMap_9659_7": {
+      "display": true
+    },
+    "TransportationWebMap_9659_8": {
+      "display": true
+    },
+    "TransportationWebMap_9659_9": {
+      "display": true
+    },
+    "TransportationWebMap_9659_10": {
+      "display": true
+    },
+    "TransportationWebMap_9659_11": {
+      "display": true
+    },
+    "TransportationWebMap_9659_12": {
+      "display": true
+    },
+    "TransportationWebMap_9659_13": {
+      "display": true
+    },
+    "TransportationWebMap_9659_14": {
+      "display": true
+    },
+    "TransportationWebMap_9659_15": {
+      "display": true
+    },
+    "TransportationWebMap_9659_16": {
+      "display": true
+    },
+    "TransportationWebMap_9659_17": {
+      "display": true
+    }
+  }
+}

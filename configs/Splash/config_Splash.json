@@ -1,0 +1,35 @@
+{
+  "splash": {
+    "splashContent": "<div style=\"text-align: justify;\">The data provided are collected from various sources and will change over time without notice. In using the data, users should be aware that some of these data are generalized and were created for use in regional projects. While TRPA believes the data is accurate and properly functioning, TRPA disclaims any responsibility for the accuracy or correctness of the data. The data is provided on an “AS IS”, “AS AVAILABLE” and “WITH ALL FAULTS” basis. TRPA makes no warranties, express or implied, including but not limited to any warranties of merchantability or fitness for a particular purpose, nor shall the distribution of this information constitute any warranty.</div><div style=\"text-align: justify;\"><br /></div><div style=\"text-align: justify;\">In no event shall TRPA become liable to users of these data, or any other party, for any loss or damages, consequential or otherwise, including but not limited to time, money, or goodwill, arising from the use, operation or modification of the data. In using these data, you further agree to indemnify, defend, and hold harmless and release TRPA for any and all liability of any nature arising out of or resulting from the lack of accuracy or correctness of the data, or the use of the data.</div>",
+    "requireConfirm": true,
+    "confirm": {
+      "text": "I agree to the above terms and conditions",
+      "color": "#ffffff",
+      "transparency": 0
+    },
+    "showOption": true,
+    "confirmEverytime": true,
+    "contentVertical": "middle",
+    "size": {
+      "mode": "percent",
+      "percent": "50%",
+      "wh": {
+        "w": 600,
+        "h": 264
+      }
+    },
+    "background": {
+      "mode": "color",
+      "image": null,
+      "type": "fill",
+      "fileName": "No%20file%20chosen",
+      "color": "#11427a",
+      "transparency": 0
+    },
+    "button": {
+      "color": "#518dca",
+      "transparency": 0,
+      "text": "OK"
+    }
+  }
+}

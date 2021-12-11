@@ -1,0 +1,515 @@
+{
+  "layerInfos": [
+    {
+      "name": "Location in need of Bike Parking",
+      "id": "TransportationWebMap_9659_0",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Intersection Improvement Priority",
+      "id": "TransportationWebMap_9659_1",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Schools",
+      "id": "TransportationWebMap_9659_2",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/2",
+        "fields": [
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": false
+          },
+          {
+            "name": "TYPE",
+            "alias": "TYPE",
+            "show": true
+          },
+          {
+            "name": "COUNTY",
+            "alias": "COUNTY",
+            "show": true
+          },
+          {
+            "name": "CELLNAME",
+            "alias": "CELLNAME",
+            "show": false
+          },
+          {
+            "name": "ENROLLMENT",
+            "alias": "ENROLLMENT",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FRPM",
+            "alias": "FRPM",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FRPM_DENS",
+            "alias": "FRPM_DENS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ADDRESS",
+            "alias": "ADDRESS",
+            "show": true
+          },
+          {
+            "name": "ENROLL_TEX",
+            "alias": "ENROLL_TEX",
+            "show": false
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Crashes 2006-2017",
+      "id": "TransportationWebMap_9659_3",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/3"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Electric Vehicle Charging Station",
+      "id": "TransportationWebMap_9659_4",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/4",
+        "fields": [
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "No",
+            "alias": "No",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "StatName",
+            "alias": "StatName",
+            "show": false
+          },
+          {
+            "name": "StAddress",
+            "alias": "StAddress",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "State",
+            "alias": "State",
+            "show": false
+          },
+          {
+            "name": "ZIP",
+            "alias": "ZIP",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EVL2No",
+            "alias": "EVL2No",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EVDCNo",
+            "alias": "EVDCNo",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Netwk",
+            "alias": "Netwk",
+            "show": false
+          },
+          {
+            "name": "Geoco",
+            "alias": "Geoco",
+            "show": false
+          },
+          {
+            "name": "Lat",
+            "alias": "Lat",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Long",
+            "alias": "Long",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NOTES",
+            "alias": "NOTES",
+            "show": true
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS",
+            "show": true
+          },
+          {
+            "name": "CHARGER",
+            "alias": "CHARGER",
+            "show": true
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "FID",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "TTD and TART Bus Stops",
+      "id": "TransportationWebMap_9659_5",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/5",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "STOP_ID",
+            "alias": "STOP_ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "STOP_NAME",
+            "alias": "STOP_NAME",
+            "show": false
+          },
+          {
+            "name": "LATITUDE",
+            "alias": "LATITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LONGITUDE",
+            "alias": "LONGITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Traffic Volume Count Locations",
+      "id": "TransportationWebMap_9659_6",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/6"
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Mile Markers",
+      "id": "TransportationWebMap_9659_7",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/7"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Complete Street Improvement Zones",
+      "id": "TransportationWebMap_9659_8",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/8"
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Existing Bike and Pedestrian Facilities",
+      "id": "TransportationWebMap_9659_9",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/9"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Proposed Bike and Pedestrian Facilities",
+      "id": "TransportationWebMap_9659_10",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/10"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Shared-Use Paths 75ft Buffer",
+      "id": "TransportationWebMap_9659_11",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/11"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Proposed Ferry Routes",
+      "id": "TransportationWebMap_9659_12",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/12"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Existing Transit Services",
+      "id": "TransportationWebMap_9659_13",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/13",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "ROUTE_NUMBER",
+            "alias": "ROUTE NUMBER",
+            "show": true
+          },
+          {
+            "name": "ROUTE_NAME",
+            "alias": "ROUTE NAME",
+            "show": false
+          },
+          {
+            "name": "ROUTE_DESCRIPTION",
+            "alias": "ROUTE DESCRIPTION",
+            "show": true
+          },
+          {
+            "name": "ROUTE_TYPE",
+            "alias": "ROUTE TYPE",
+            "show": true
+          },
+          {
+            "name": "ROUTE_WEBSITE",
+            "alias": "ROUTE WEBSITE",
+            "show": true
+          },
+          {
+            "name": "AGENCY_NUMBER",
+            "alias": "AGENCY ID NUMBER",
+            "show": false
+          },
+          {
+            "name": "ROUTE_PROVIDER",
+            "alias": "ROUTE PROVIDER",
+            "show": false
+          },
+          {
+            "name": "SEASON",
+            "alias": "SEASON",
+            "show": true
+          },
+          {
+            "name": "Shape.STLength()",
+            "alias": "Shape.STLength()",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "TTD SRTP Proposed Transit Services",
+      "id": "TransportationWebMap_9659_14",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/14"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "TTD Demand Response Service Area",
+      "id": "TransportationWebMap_9659_15",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/15"
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Corridors",
+      "id": "TransportationWebMap_9659_16",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/16",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "CORRIDOR_NAME",
+            "alias": "CORRIDOR NAME",
+            "show": false
+          },
+          {
+            "name": "ACRES",
+            "alias": "ACRES",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SQUARE_MILES",
+            "alias": "SQUARE MILES",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape.STArea()",
+            "alias": "Shape.STArea()",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape.STLength()",
+            "alias": "Shape.STLength()",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Transportation Analysis Zones",
+      "id": "TransportationWebMap_9659_17",
+      "layer": {
+        "url": "https://maps.trpa.org:6443/arcgis/rest/services/TransportationWebMap/MapServer/17"
+      },
+      "show": true,
+      "showAttachments": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": true
+}
