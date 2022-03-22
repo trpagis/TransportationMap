@@ -12,14 +12,17 @@
     </div>
   </div>
 
-  <div class="options hide">
-    <div>${nls.options}</div>
-    <div class="itmes" data-dojo-attach-point="saveExtent"></div>
+  <div class="options">
+    <div class="tips">${nls.extent}</div>
+
+    <div class="extent-chooser" data-dojo-attach-point="extentChooserNode"></div>
+
     <div class="itmes btns">
       <div class="" data-dojo-attach-point="saveLayers"></div>
-      <div data-dojo-attach-point="setBtn"></div>
-    </div>  
-  </div>
+    </div>
 
-  <div class="extent-chooser" style="height: 400px" data-dojo-attach-point="extentChooserNode"></div>
+    <div data-dojo-attach-point="layerChooserContainer" class="layer-chooser-container">
+      <div data-dojo-attach-point="layerChooser"></div>
+    </div>
+  </div>
 </div>

@@ -75,6 +75,9 @@
   "title": "ArcGIS Web Application",
   "subtitle": "A configurable web application",
 
+  //Optional. If true, the current map extent and the layer visibility will be kept before you leave the app so you can see the same map extent and layer visibility when open the app next time.
+  "keepAppState": true,
+
   //Optional. App can contain some links.
   "links":[
     {
@@ -135,7 +138,7 @@
         dataSchema: {
           geometryType: "",
 
-          // Field[]: http://jscore.esri.com/javascript/3/jsapi/field-amd.html
+          // Field[]: https://developers.arcgis.com/javascript/3/jsapi/field-amd.html
           // includes the selected fields only
           fields: [],
 
@@ -156,7 +159,7 @@
           //array of StatisticDefinition: https://developers.arcgis.com/javascript/3/jsapi/statisticdefinition-amd.html
           statistics: [],
 
-          // Field[]: http://jscore.esri.com/javascript/3/jsapi/field-amd.html
+          // Field[]: https://developers.arcgis.com/javascript/3/jsapi/field-amd.html
           // includes the used fields only
           fields: [],
 
